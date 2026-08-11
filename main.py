@@ -433,9 +433,9 @@ class DeGooglerWindow(QMainWindow):
         removal_description.setWordWrap(True)
         removal_root.addWidget(removal_description)
         removal_warning = QLabel(
-            "Warning: removing core GMS can break sign-in, notifications, location, apps that depend on Play services, "
+            "Warning: removing system applications can break "
             "setup/restore flows, and other system behavior. Fully Uninstall uses Android's per-user uninstall; restoring "
-            "normally uses install-existing, but a factory reset is the most reliable way back to the stock state."
+            "may not be possible without reflashing the ROM."
         )
         removal_warning.setWordWrap(True)
         removal_warning.setStyleSheet("padding: 10px; border: 1px solid palette(mid); border-radius: 6px;")
