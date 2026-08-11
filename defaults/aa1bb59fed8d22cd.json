@@ -1,0 +1,23 @@
+{
+  "device": {
+    "ro.product.manufacturer": "Yulong",
+    "ro.product.model": "cp3705AS",
+    "ro.product.device": "koba",
+    "ro.build.version.release": "9",
+    "ro.build.version.sdk": "28",
+    "ro.build.version.incremental": "farmlnj01-2427",
+    "ro.build.fingerprint": "Coolpad/koba/koba:9/3705AS.SPRINT.210521.1S/farmlnj01-2427:user/release-keys"
+  },
+  "packages": [
+    "com.adups.dmc",
+    "com.amazon.appmanager",
+    "com.amazon.avod.thirdpartyclient",
+    "com.amazon.mShop.android.shopping",
+    "com.boost.callscreener",
+    "com.coolpad.coolclean",
+    "com.facebook.appmanager",
+    "com.facebook.katana",
+    "com.facebook.system",
+    "com.handmark.expressweather"
+  ]
+}
