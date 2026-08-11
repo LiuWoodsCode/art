@@ -46,7 +46,6 @@ CORE_GMS: dict[str, str] = {
     "com.google.android.carriersetup": "Google Carrier Setup",
     "com.google.android.apps.restore": "Google Restore",
     "com.google.android.apps.pixelmigrate": "Google Pixel Migrate",
-    "com.google.android.packageinstaller": "Google Package Installer",
     "com.google.android.webview": "Android System WebView (Google)",
     "com.google.android.webview.stub": "Android System WebView Stub",
     "com.google.android.ims": "Carrier Services / IMS",
