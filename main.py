@@ -31,6 +31,7 @@ from PySide6.QtWidgets import (
 
 CORE_GMS: dict[str, str] = {
     "com.google.android.gms": "Google Play services",
+    "com.google.android.gms.policy_sidecar_aps": "Google Play services policy sidecar aps",
     "com.google.android.gsf": "Google Services Framework",
     "com.android.vending": "Google Play Store",
     "com.google.android.backuptransport": "Google Backup Transport",
@@ -38,6 +39,7 @@ CORE_GMS: dict[str, str] = {
     "com.google.android.syncadapters.calendar": "Google Calendar Sync",
     "com.google.android.onetimeinitializer": "Google One Time Initializer",
     "com.google.android.partnersetup": "Google Partner Setup",
+    "com.google.android.setupwizard": "Google Setup Wizard",
     "com.google.android.setupwizard.default": "Google Setup Wizard (default)",
     "com.google.android.setupwizard.tablet": "Google Setup Wizard (tablet)",
     "com.google.android.configupdater": "Google Config Updater",
@@ -51,6 +53,10 @@ CORE_GMS: dict[str, str] = {
     "com.google.android.ims": "Carrier Services / IMS",
     "com.google.android.storagemanager": "Google Storage Manager",
     "com.google.android.printservice.recommendation": "Google Print Service Recommendation",
+    "com.google.android.apps.pixel.psi": "Device Intelligence",
+    "com.google.android.verifier": "Android Developer Verifier",
+    "com.google.android.apps.work.clouddpc": "Android Device Policy",
+    "com.google.android.apps.pixel.tabby": "Pixel Audio Services",
 }
 
 GOOGLE_APPS: dict[str, str] = {
@@ -66,6 +72,7 @@ GOOGLE_APPS: dict[str, str] = {
     "com.google.android.calendar": "Google Calendar",
     "com.google.android.gm.exchange": "Gmail Exchange Services",
     "com.google.android.gm": "Gmail",
+    "com.google.android.apps.bard": "Gemini",
     "com.google.android.apps.nexuslauncher": "Pixel Launcher",
     "com.google.android.apps.wallpaper": "Google Wallpapers",
     "com.google.android.as": "Android System Intelligence / Device Personalization",
@@ -110,6 +117,14 @@ GOOGLE_APPS: dict[str, str] = {
     "com.google.android.apps.inputmethod.zhuyin": "Google Zhuyin Input",
     "com.google.android.apps.gcs": "Google Connectivity Services",
     "com.google.android.apps.multidevice.client": "Google Multi-Device Client",
+    "com.google.android.apps.searchlite": "Google Go",
+    "com.google.android.apps.photosgo": "Gallery",
+    "com.google.android.apps.nbu.files": "Files by Google",
+    "com.google.android.apps.accessibility.voiceaccess": "Voice Access",
+    "com.google.android.apps.accessibility.magnifier": "Magnifier",
+    "com.google.android.apps.mapslite": "Google Maps Go",
+    "com.google.android.gm.lite": "Gmail Go",
+
 }
 
 ALL_GOOGLE = {**CORE_GMS, **GOOGLE_APPS}
